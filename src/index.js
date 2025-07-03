@@ -1,3 +1,6 @@
+import "./css/reset.css"
+import "./css/styles.css"
+
 async function getData() {
     let response = await fetch("https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Texas?key=G8TM9LDVXZM4PRQ53HZTAPU8X");
     let data = await response.json();
