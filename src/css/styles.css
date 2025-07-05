@@ -45,6 +45,11 @@ img {
     width: 30%;
 }
 
+.search-bar-form {
+    height: 100%;
+    width: 100%;
+}
+
 .search-bar-input {
     background-color: #2f344a;
     border: none;
@@ -65,6 +70,7 @@ img {
 .search-btn {
     height: 80%;
     align-self: center;
+    cursor: pointer;
 }
 
 #content {
@@ -74,6 +80,7 @@ img {
     flex-direction: column;
     align-items: center;
     flex: 1;
+    padding-top: 2rem;
 }
 
 .overview {
@@ -82,6 +89,11 @@ img {
     align-items: center;
     gap: 2rem;
     margin: auto 0;
+}
+
+.city-name {
+    font-size: 5rem;
+    font-weight: bold;
 }
 
 .average-forecast {
@@ -104,6 +116,15 @@ img {
     display: flex;
     flex-direction: column;
     gap: .5rem;
+}
+
+.unit-desc {
+    cursor: pointer;
+}
+
+.active {
+    font-size: 4rem;
+    font-weight: bold;
 }
 
 .average-desc {
